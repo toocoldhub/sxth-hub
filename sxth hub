@@ -32,6 +32,13 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Universal", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
+   Name = "QP Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Community/Roblox-Exploit/main/Loader.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Universal Aimbot",
    Callback = function()
    --[[
@@ -7455,6 +7462,12 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "midnight.cc",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/laeraz/midnightcc/main/public.lua"))()
+   end,
+})
 
 local Button = Tab:CreateButton({
    Name = "Silent Aim GUI",

@@ -32,6 +32,15 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Universal", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
+   Name = "Auto-Clicker",
+   Callback = function()
+   getgenv().key = "Hostile"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
    Name = "QP Hub",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/QP-Community/Roblox-Exploit/main/Loader.lua"))()

@@ -7797,3 +7797,11 @@ local Button = Tab:CreateButton({
 })
 
 
+local Tab = Window:CreateTab("untitled tag game", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Hitbox Expander",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/3RfB693z",true))()
+   end,
+})

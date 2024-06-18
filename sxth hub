@@ -7790,9 +7790,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Silent Aim GUI",
+   Name = "sanity.wtf",
    Callback = function()
-   loadstring(game:HttpGet("https://pastebin.com/raw/iFDUTWfp"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/helldevelopment/RobloxScripts/main/SanityLoader.lua"))()
    end,
 })
 
